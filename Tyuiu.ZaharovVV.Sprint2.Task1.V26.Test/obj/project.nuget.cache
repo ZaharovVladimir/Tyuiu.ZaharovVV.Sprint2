@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "4N3f7AEZ4e8=",
-  "success": true,
+  "dgSpecHash": "mqGLjEFbvcs=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Test\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
@@ -15,5 +15,15 @@
     "C:\\Users\\Vladimir\\.nuget\\packages\\nuget.frameworks\\6.5.0\\nuget.frameworks.6.5.0.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

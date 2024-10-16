@@ -88,6 +88,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj": {
+                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj"
+              },
               "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj": {
                 "projectPath": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj"
               }

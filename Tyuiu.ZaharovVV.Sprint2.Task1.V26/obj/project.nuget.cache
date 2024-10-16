@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "GtGabrey+SE=",
-  "success": true,
+  "dgSpecHash": "uAKSs/ArK7U=",
+  "success": false,
   "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Не удалось найти проект \"C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj\". Убедитесь, что ссылка на проект действительна и файл проекта существует.",
+      "libraryId": "C:\\Users\\Vladimir\\source\\repos\\Tyuiu.ZaharovVV.Sprint2\\Tyuiu.ZaharovVV.Sprint2.Task1.V26.Lib.csproj",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
