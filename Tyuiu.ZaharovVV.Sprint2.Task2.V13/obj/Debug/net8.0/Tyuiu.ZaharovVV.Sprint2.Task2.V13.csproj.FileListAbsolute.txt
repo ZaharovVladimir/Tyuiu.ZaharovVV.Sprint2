@@ -1,0 +1,15 @@
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\bin\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.exe
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\bin\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.deps.json
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\bin\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.runtimeconfig.json
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\bin\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.dll
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\bin\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.pdb
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.sourcelink.json
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.dll
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\refint\Tyuiu.ZaharovVV.Sprint2.Task2.V13.dll
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.pdb
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\Tyuiu.ZaharovVV.Sprint2.Task2.V13.genruntimeconfig.cache
+C:\Users\Vladimir\source\repos\Tyuiu.ZaharovVV.Sprint2\Tyuiu.ZaharovVV.Sprint2.Task2.V13\obj\Debug\net8.0\ref\Tyuiu.ZaharovVV.Sprint2.Task2.V13.dll
