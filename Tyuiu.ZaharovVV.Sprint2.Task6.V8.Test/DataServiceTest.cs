@@ -6,23 +6,33 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task6.V8.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidFindDateOfPreviousDay()
+        public void ValidMounth()
         {
             DataService ds = new DataService();
-            Assert.AreEqual("19.05", ds.FindDateOfPreviousDay(5, 20));
-            Assert.AreEqual("31.03", ds.FindDateOfPreviousDay(4, 1));
-            Assert.AreEqual("29.07", ds.FindDateOfPreviousDay(7, 30));
-            Assert.AreEqual("31.08", ds.FindDateOfPreviousDay(9, 1));
+
+            int m = 2;
+
+            Assert.AreEqual("1.01", ds.FindDateOfPreviousDay(m, 1));
+            Assert.AreEqual("1.02", ds.FindDateOfPreviousDay(m, 2));
+            Assert.AreEqual("1.03", ds.FindDateOfPreviousDay(m, 3));
+            Assert.AreEqual("1.04", ds.FindDateOfPreviousDay(m, 4));
+            Assert.AreEqual("1.05", ds.FindDateOfPreviousDay(m, 5));
+            Assert.AreEqual("1.06", ds.FindDateOfPreviousDay(m, 6));
+            Assert.AreEqual("1.07", ds.FindDateOfPreviousDay(m, 7));
+            Assert.AreEqual("1.08", ds.FindDateOfPreviousDay(m, 8));
+            Assert.AreEqual("1.09", ds.FindDateOfPreviousDay(m, 9));
+            Assert.AreEqual("1.10", ds.FindDateOfPreviousDay(m, 10));
+            Assert.AreEqual("1.11", ds.FindDateOfPreviousDay(m, 11));
+            Assert.AreEqual("1.12", ds.FindDateOfPreviousDay(m, 12));
 
             Assert.ThrowsException<ArgumentException>(() =>
             {
-                ds.FindDateOfPreviousDay(14, 32);
+                ds.FindDateOfPreviousDay(1, -1);
             });
             Assert.ThrowsException<ArgumentException>(() =>
             {
-                ds.FindDateOfPreviousDay(13, 32);
+                ds.FindDateOfPreviousDay(32, 13);
             });
         }
-
     }
 }
