@@ -12,7 +12,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task2.V13
             Console.WriteLine("* Тема: Базовые навыки работы в с#                                            *");
             Console.WriteLine("* Задание #3                                                                  *");
             Console.WriteLine("* Вариант #13                                                                 *");
-            Console.WriteLine("* Выполнил Журило Никита Александрович | ИБКСб-24-1                           *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович  | ИСТНб-24-1                       *");
             Console.WriteLine("*******************************************************************************");
             Console.WriteLine("* Условие                                                                     *");
             Console.WriteLine("* Написать программу на, которая запрашивает целые значения с клавиатуры и    *");

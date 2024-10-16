@@ -18,7 +18,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task5.V12
             Console.WriteLine("* Тема: Тернарный оператор                                                *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #12                                                             *");
-            Console.WriteLine("* Выполнил: Черепанов В.С. | ПКТб-23-1                                    *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович  | ИСТНб-24-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая использует оператор switch, вычисляет       *");

@@ -14,7 +14,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task7.V5
             Console.WriteLine("* Тема: Итоговый проект                                                   *");
             Console.WriteLine("* Задание #7                                                              *");
             Console.WriteLine("* Вариант #5                                                              *");
-            Console.WriteLine("* Выполнил: Селедков Никита Павлович | Смартб-24-1                        *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович  | ИСТНб-24-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу на C#, которая запрашивает исходные данные           *");

@@ -14,7 +14,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task6.V8
             Console.WriteLine("* Тема: Создания итогого решения по спринту                              *");
             Console.WriteLine("* Задание #6                                                             *");
             Console.WriteLine("* Вариант #8                                                             *");
-            Console.WriteLine("* Выполнил: Тодиков Даниил Эдуардович | ИСТНб-24-1                       *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович  | ИСТНб-24-1                  *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("*                                                                        *");
             Console.WriteLine("**************************************************************************");

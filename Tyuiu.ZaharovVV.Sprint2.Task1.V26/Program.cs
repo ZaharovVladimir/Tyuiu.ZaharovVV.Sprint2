@@ -12,7 +12,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task1.V26
             Console.WriteLine("* Тема : Операции Сравнения                                                  *");
             Console.WriteLine("* Задание №1                                                                 *");
             Console.WriteLine("* Вариант №26                                                                *");
-            Console.WriteLine("* Выполнил: Захаров Владимир Владимировичь | ИСТНб-24-1                      *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович  | ИСТНб-24-1                      *");
             Console.WriteLine("******************************************************************************");
             Console.WriteLine("* УСЛОВИЕ :                                                                  *");
             Console.WriteLine("* Написать программу из операций сравнений и логических операций, а также    *");

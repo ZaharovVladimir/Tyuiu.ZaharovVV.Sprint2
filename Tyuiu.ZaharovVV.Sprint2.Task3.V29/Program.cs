@@ -14,7 +14,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task3.V29
             Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
             Console.WriteLine("* Задание #3                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
-            Console.WriteLine("* Выполнил: Абрамушкин Александр Николаевич | ИИПб-24-2                   *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович | ИСТНб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с    *");

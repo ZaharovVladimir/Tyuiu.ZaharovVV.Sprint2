@@ -13,7 +13,7 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task4.V30
             Console.WriteLine("* Тема: Тернарный оператор                                                *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #30                                                             *");
-            Console.WriteLine("* Выполнил: Мышакин Данил              | ПКТб-24-1                        *");
+            Console.WriteLine("* Выполнил: Захаров Владимир Владимирович | ИСТНб-24-1                    *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Написать программу, которая вычисляет требуемое значение с              *");
