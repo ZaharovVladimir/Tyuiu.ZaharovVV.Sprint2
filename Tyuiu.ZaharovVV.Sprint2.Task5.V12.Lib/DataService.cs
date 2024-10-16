@@ -4,76 +4,95 @@ namespace Tyuiu.ZaharovVV.Sprint2.Task5.V12.Lib
 {
     public class DataService : ISprint2Task5V12
     {
+        private bool ThirtyDays(int month)
+        {
+            return (new[] { 4, 6, 9, 11 }).Contains(month);
+        }
+
+        private bool ThirtyOneDays(int month)
+        {
+            return (new[] { 1, 3, 5, 7, 8, 10, 12 }).Contains(month);
+        }
+
+        private string NumberToString(int number)
+        {
+            return number < 10 ? "0" + number : "" + number;
+        }
+
+        private string YearToString(int year)
+        {
+            string answer = "" + year;
+
+            while (answer.Length < 4)
+            {
+                answer = "0" + answer;
+            }
+
+            return answer;
+        }
+
+        private bool ValidDate(int day, int month, int year)
+        {
+            if (year < 0 || year > 9999 || month <= 0 || day <= 0)
+            {
+                return false;
+            }
+
+            if ((year == 0 && month == 1 && day == 1) || (month == 2 && (day > 29)))
+            {
+                return false;
+            }
+
+            if ((ThirtyDays(month) && day > 30) || (ThirtyOneDays(month) && day > 31))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
+        private bool LeapYear(int year)
+        {
+            return (year % 4) == 0;
+        }
+
         public string FindDateOfPreviousDay(int g, int m, int n)
         {
-            int prevG = g;
-            int prevM = m;
-            int prevN = n;
+            if (!ValidDate(n, m, g))
+            {
+                return "Дата некорректна!";
+            }
 
-            switch (m)
+            if (!LeapYear(g))
+            {
+                return "Год невисокосный!";
+            }
+
+            switch (n)
             {
                 case 1:
-                    m = 12;
-                    g -= 1;
-                    break;
-                case 3:
-                    if (n == 1)
+                    switch (m)
                     {
-                        m = 2;
-                        n = 28;
+                        case 1:
+                            return "31.12." + YearToString(g - 1);
 
-                        if (IsLeapYear(prevG))
-                        {
-                            n = 29;
-                        }
-                    }
-                    else
-                    {
-                        m -= 1;
-                    }
+                        case 3:
+                            return "29.02." + YearToString(g);
 
-                    break;
-                case 2:
-                case 4:
-                case 6:
-                case 8:
-                case 9:
-                case 11:
-                    if (n == 1)
-                    {
-                        m -= 1;
-                        n = 31;
-                    }
-                    else
-                    {
-                        n = n - 1;
+                        default:
+                            if (ThirtyDays(m - 1))
+                            {
+                                return "30." + NumberToString(m - 1) + "." + YearToString(g);
+                            }
+
+                            return "31." + NumberToString(m - 1) + '.' + YearToString(g);
+
                     }
 
-                    break;
-                case 5:
-                case 7:
-                case 10:
-                case 12:
-                    if (n == 1)
-                    {
-                        m -= 1;
-                        n = 30;
-                    }
-                    else
-                    {
-                        n = n - 1;
-                    }
-
-                    break;
+                default:
+                    return NumberToString(n - 1) + "." + NumberToString(m) + "." + YearToString(g);
             }
 
-            bool IsLeapYear(int year)
-            {
-                return year % 4 == 0 && (year % 100 != 0 || year % 400 == 0);
-            }
-
-            string res = Convert.ToString(n) + "." + Convert.ToString(m) + "." + Convert.ToString(g);
-            return res;
         }
     }
 }
